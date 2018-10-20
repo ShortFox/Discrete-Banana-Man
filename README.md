@@ -45,7 +45,7 @@ Banana Man can navigate through his environment by taking one of four discrete a
 
     `cd Discrete-Banana-Man/python`  
     `pip install .`  
-    
+
     **Windows Users:** When installing the required dependencies, you may receive an error when trying to install "torch." If that is the case, then install pytorch manually, and then run `pip install .` again. Note that pytorch version 0.4.0 is required:
 
     `conda install pytorch=0.4.0 -c pytorch`
@@ -60,7 +60,7 @@ Banana Man can navigate through his environment by taking one of four discrete a
 
     (_For Windows users_) Check out [this link](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64) if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
 
-6. Place the unzipped file inside the repository location. Note that the Windows (x86_64) version of the environment is already included.
+6. Place the unzipped file inside the repository location. Note that the Windows (x86_64) version of the environment is already included (must be unzipped).
 
 ### Instructions to train the Banana Man agent
 
