@@ -47,7 +47,7 @@ class Agent():
         self.qnetwork_target = QNetwork(self.state_size, self.action_size).to(device)
         self.optimizer = optim.Adam(self.qnetwork_local.parameters(), lr=LR)
 
-        if self.train_agent:
+        if self.train_agent == False:
             self.qnetwork_local.load()
 
         # Replay memory
