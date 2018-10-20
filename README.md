@@ -45,9 +45,8 @@ Banana Man can navigate through his environment by taking one of four discrete a
 
     `cd Discrete-Banana-Man/python`  
     `pip install .`  
-    `python setup.py install`
-
-    **Windows Users:** When installing the required dependencies, you may receive an error when trying to install "torch." If that is the case, then install pytorch manually. Note that pytorch version 0.4.0 is required:
+    
+    **Windows Users:** When installing the required dependencies, you may receive an error when trying to install "torch." If that is the case, then install pytorch manually, and then run `pip install .` again. Note that pytorch version 0.4.0 is required:
 
     `conda install pytorch=0.4.0 -c pytorch`
 
