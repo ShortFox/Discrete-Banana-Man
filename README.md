@@ -66,8 +66,9 @@ Banana Man can navigate through his environment by taking one of four discrete a
 
 1. Open `main.py` and edit the `file_name` variable to correctly locate the location of the Banana Man Unity environment.
 
-2. Within the same anaconda prompt, train the agent with the following line:
+2. Within the same anaconda prompt, return to the `Discrete-Banana-Man` subfolder, and then train the agent:
 
+    `cd ..`  
     `python main.py`
 
 3. Following training, `checkpoint.pth` will be created which represents the neural network's weights. Additionally, `banana_scores.csv` will contain the scores from training (with the row indicating episode number).
