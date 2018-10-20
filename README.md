@@ -43,8 +43,8 @@ Banana Man can navigate through his environment by taking one of four discrete a
 
 4. Navigate to the `python/` subdirectory in this repository and install all required dependencies
 
-    `cd Discrete-Banana-Man/python`
-    `pip install .`
+    `cd Discrete-Banana-Man/python`  
+    `pip install .`  
     `python setup.py install`
 
     **Windows Users:** When installing the required dependencies, you may receive an error when trying to install "torch." If that is the case, then install pytorch manually. Note that pytorch version 0.4.0 is required:
