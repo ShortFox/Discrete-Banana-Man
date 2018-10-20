@@ -39,11 +39,11 @@ Banana Man can navigate through his environment by taking one of four discrete a
 
 3. Clone this repository on your local machine.
 
-    `git clone "link of this github repository".git`  
+    `git clone https://github.com/ShortFox/Discrete-Banana-Man.git`  
 
 4. Navigate to the `python/` subdirectory in this repository and install all required dependencies
 
-    `cd "name_of_this_repository"/python`  
+    `cd Discrete-Banana-Man/python`  
     `pip install .`
 
     Note: For information about what dependencies are being installed, view the `requirements.py` file inside the `python/` subdirectory. **Windows Users:** When installing the required dependencies, you may receive an error when trying to install "torch." If that is the case, then install pytorch manually. Note that pytorch version 0.4.0 is required:
